@@ -46,14 +46,6 @@ export default function RootLayout({
     >
       <html lang="en">
         <body>
-          <header>
-            <SignedOut>
-              <SignInButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </header>
           <main className={`${inter.variable} ${spaceGrotesk.variable}`}>
             <ThemeProvider>{children}</ThemeProvider>
           </main>
